@@ -21,6 +21,8 @@ function Fibonacci(position) {
 function Primes(max) {
   // Generates all prime numbers lower or equal to specified maximum
 
+  if (max <= 1) { return []; }
+
   let x = 3;
   const Pri = [2];
 
